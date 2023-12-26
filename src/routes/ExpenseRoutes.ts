@@ -1,7 +1,7 @@
 import { Hono } from "hono"
 import { Route } from "./Router"
 import { ExpenseUsecase } from "usecases/expense_usecase/ExpenseUsecase"
-import { expensePresenter, expensesPresenter } from "presenters/ExpensePresenter"
+import { expensePresenter } from "presenters/ExpensePresenter"
 
 export class ExpenseRoute implements Route {
   constructor(
